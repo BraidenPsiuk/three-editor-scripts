@@ -1,6 +1,6 @@
 # three-editor-scripts
 A collection of small, simple scripts for the [Three.js editor](https://threejs.org/editor)
-Read this README to see what each script does and what it attaches to.
+Read this README to see what each script does and what you can attach it to.
 
 - gltf-material-opacity-animate.js
   - Attach to: THREE.Object3D
