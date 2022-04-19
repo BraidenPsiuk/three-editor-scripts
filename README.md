@@ -14,3 +14,7 @@ Check out the list below to see what each script does and what you can attach it
 ### gltf-material-opacity-animate.js
   - Attach to: THREE.Object3D
   - Description: Animate opacity (a property of THREE.Object3D.material) by using a child single vert's X translation property as a container to hold opacity animation data. In this example, opacity animation data is stored in '[child single vert].scale.x'.
+
+### set-camera-on-play.js
+  - Attach to: THREE.PerspectiveCamera
+  - Description: Set the active camera when the "play" button is clicked by the user.
