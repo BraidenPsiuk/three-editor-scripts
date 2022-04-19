@@ -3,7 +3,7 @@ A collection of small, simple scripts for the [Three.js editor](https://threejs.
 
 There are two files for each script:
 - [script].js: The actual script. You can copy-paste the contents into the Three.js Editor's script editor.
-- [script].json: An example scene description file. You can simply drag-and-drop these into the Three.js Editor window, and you'll get a basic example of what the script does.
+- [script].json: An example scene description file. You can simply drag-and-drop these into the Three.js Editor window, click the "play" button, and you'll get a basic example of what the script does.
 
 Check out the list below to see what each script does and what you can attach it to.
 
