@@ -1,0 +1,1 @@
+player.setCamera( this );
