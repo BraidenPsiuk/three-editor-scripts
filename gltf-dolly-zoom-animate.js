@@ -10,5 +10,4 @@ function update( event ) {
   // Even though we directly animated the camera's position in Blender, the glTF exporter OR importer (not sure which) actually seems to
   // create parent containers for all cameras in the scene, and these parent containers have their positions animated instead of the camera directly.
 	console.log(this.parent.position.z);
-	//this.material.opacity = this.children[0].scale.x;
 }
