@@ -7,7 +7,15 @@ action.play();
 
 function update( event ) {
 	mixer.update( clock.getDelta() );
-  // Even though we directly animated the camera's position in Blender, the glTF exporter OR importer (not sure which) actually seems to
-  // create parent containers for all cameras in the scene, and these parent containers have their positions animated instead of the camera directly.
-	console.log(this.parent.position.z);
+	//console.log(this.parent.parent.children[1].position.x);
+	this.fov = this.parent.parent.children[1].position.x;
+	this.updateProjectionMatrix();
+	
+	console.log({
+		curFOV: this.fov,
+		setFOV: this.parent.parent.children[1].position.x
+	});
+	//console.log(this.parent.parent.children[1].position.x);
+	//console.log(this.parent.position.z); // Even though we animated the camera's position in Blender, the glTF exporter OR importer (not sure which) actually creates parent containers for all cameras in the scene, which then have their positions animated instead of the camera directly.
+	//this.material.opacity = this.children[0].scale.x;
 }
