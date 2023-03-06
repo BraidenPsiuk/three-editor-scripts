@@ -17,7 +17,7 @@ You can find the Manual for the editor [here](https://github.com/mrdoob/three.js
   - Attach to: THREE.Object3D
   - Description: Animate opacity (a property of THREE.Object3D.material) by using a child single vert's X scale property as a container to hold opacity animation data. The opacity value must range from 0-1, so animate this value accordingly. In this example, opacity animation data is stored in '[child single vert].scale.x'.
 Example:
-<img src="https://raw.githubusercontent.com/BraidenPsiuk/three-editor-scripts/master/img/gltf-material-opacity-animate.png" style="width: 100%;">
+<img src="https://raw.githubusercontent.com/BraidenPsiuk/three-editor-scripts/master/img/gltf-material-opacity-animate.gif" style="width: 100%;">
 
 ### set-camera-on-play.js
   - Attach to: THREE.PerspectiveCamera
